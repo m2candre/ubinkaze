@@ -16,7 +16,7 @@ MIN_DISK_GB=20
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 RED='\033[0;31m'
-ICON='\xF0\x9F\x91\xBD'
+ICON='\xF0\x9F\x8C\x80'
 NC='\033[0m'
 
 # --- Functions ---
