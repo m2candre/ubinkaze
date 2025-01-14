@@ -2,7 +2,7 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Ubinkaze (U-bin-ka-zeh) - "Ubuntu" + "Kaze" (風, wind in Japanese).
+Ubinkaze (U-bin-ka-zeh) - "Ubuntu" + "Kaze" (🌀, wind in Japanese).
 
 An comprehensive post-installation configuration tool for Ubuntu servers, streamlining the setup process and implementing best practices.
 
