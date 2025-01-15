@@ -20,5 +20,11 @@ echo "Cloning Ubinkaze..."
 rm -rf ~/.local/share/ubinkaze
 git clone https://github.com/felipefontoura/ubinkaze.git ~/.local/share/ubinkaze >/dev/null
 
+if [[ $UBINKAZE_REF != "main" ]]; then
+  cd ~/.local/share/ubinkaze
+  git fetch origin "${UBINKAZE_REF:-stable}" && git checkout "${UBINKAZE_REF:-stable}"
+  cd -
+fi
+
 echo "Installation starting..."
 source ~/.local/share/ubinkaze/install.sh
