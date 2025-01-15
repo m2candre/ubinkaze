@@ -27,6 +27,15 @@ Run the setup script on your server:
 bash <(curl -sSL https://raw.githubusercontent.com/felipefontoura/ubinkaze/main/boot.sh)
 ```
 
+## 🐋 Docker Swarm
+
+If you need to use Docker Swarm run:
+
+```bash
+docker swarm init --advertise-addr="<public ip>"
+docker network create --driver=overlay network_public
+```
+
 ## 🤝 Contributing
 
 We welcome contributions to Ubinkaze! Here's how you can help:
